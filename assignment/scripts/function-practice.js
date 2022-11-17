@@ -22,13 +22,14 @@ console.log('Test - should say "Hello, Maurice!"', helloName());
 
 
 // 3. Function to add two numbers together & return the result
-let firstNumber = 5;
-let secondNumber = 6;
+let firstNumber = 8;
+let secondNumber = 22;
 
-function addNumbers(firstNumber, secondNumber) {
-  // return firstNumber + secondNumber;
+function addNumbers() {
+  return firstNumber + secondNumber;
 }
-console.log('Test- Should add two numbers', 5, 6 );
+console.log('Test- Should add two numbers', addNumbers());
+
 
 
 // 4. Function to multiply three numbers & return the result
