@@ -14,16 +14,21 @@ console.log('Test - should say "Hello World!"', hello());
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
-function helloName( name ) {
-  return;
+function helloName( Maurice ) {
+  return 'Hello, Maurice!';
 }
 // Remember to call the function to test
+console.log('Test - should say "Hello, Maurice!"', helloName());
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber ) {
+let firstNumber = 5;
+let secondNumber = 6;
+
+function addNumbers(firstNumber, secondNumber) {
   // return firstNumber + secondNumber;
 }
+console.log('Test- Should add two numbers', 5, 6 );
 
 
 // 4. Function to multiply three numbers & return the result
